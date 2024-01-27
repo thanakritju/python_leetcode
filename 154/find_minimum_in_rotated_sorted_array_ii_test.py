@@ -8,6 +8,7 @@ class TestSolution(unittest.TestCase):
         s = Solution()
         self.assertEqual(s.findMin([1, 3, 5]), 1)
         self.assertEqual(s.findMin([2, 2, 2, 0, 1]), 0)
+        self.assertEqual(s.findMin([2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2]), 1)
         self.assertEqual(s.findMin([3, 4, 5, 1, 2]), 1)
         self.assertEqual(s.findMin([3, 4, 5, 1, 2, 2, 2, 3]), 1)
         self.assertEqual(s.findMin([4, 5, 6, 7, 0, 1, 2]), 0)
